@@ -157,7 +157,7 @@
 		$users = data.filter(({ location }) => {
 			if (!selectedCountry) return true;
 
-			return location.city === selectedCountry.value;
+			return location.country === selectedCountry.value;
 		});
 	});
 </script>
